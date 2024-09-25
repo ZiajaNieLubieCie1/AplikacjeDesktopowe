@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 public class Program
 {
     public static void Main(string[] arqs)
@@ -13,8 +13,8 @@ public class Program
         Console.WriteLine("Zad 3");
         string liczba1 = Console.ReadLine();
         string liczba2 = Console.ReadLine();
-        
-       
+
+
         var liczba3 = Convert.ToInt32(liczba1);
         var liczba4 = Convert.ToInt32(liczba2);
         Console.WriteLine("Wynik to: " + (liczba3 + liczba4));
@@ -27,16 +27,17 @@ public class Program
         Console.WriteLine("Zad 5");
         var TempC = Console.ReadLine();
         var TempC2 = Convert.ToDouble(TempC);
-        Console.WriteLine("Stopnie Fahrenheita: " + ((TempC2 * 9/5) + 32));
-        
+        Console.WriteLine("Stopnie Fahrenheita: " + ((TempC2 * 9 / 5) + 32));
+
         Console.WriteLine("Zad 6");
         int liczba6 = int.Parse(Console.ReadLine());
         string ciągZ = Convert.ToString(liczba6);
+        Console.WriteLine(ciągZ);
 
         Console.WriteLine("Zad 7");
         double liczba7 = int.Parse(Console.ReadLine());
         double liczba8 = int.Parse(Console.ReadLine());
-        Console.WriteLine("Średnia tych liczb to: " + ((liczba7 + liczba8) / 2 ));
+        Console.WriteLine("Średnia tych liczb to: " + ((liczba7 + liczba8) / 2));
 
         Console.WriteLine("Zad 8");
         var liczba9 = Console.ReadLine();
@@ -50,5 +51,3 @@ public class Program
 
     }
 }
-
-
