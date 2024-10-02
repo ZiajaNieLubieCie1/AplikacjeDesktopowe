@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main (string[] arqs)
     {
-        /*
+        
         Console.WriteLine("Zadanie 1");
         Console.WriteLine("Podaj x");
         int x = Convert.ToInt32(Console.ReadLine());
@@ -62,7 +62,7 @@ public class Program
         {
             Console.WriteLine("Nie może powstać z tych długości trójkąt");
         }
-        */
+        
         Console.WriteLine("Zadanie 3");
         Console.WriteLine("Podaj pesel");
         string pesel = Console.ReadLine();
